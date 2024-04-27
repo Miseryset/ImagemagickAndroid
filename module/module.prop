@@ -1,7 +1,7 @@
-id=
-name=
+id=imagemagick
+name=imagemagick 7.1.1-30
 version=V1
 versionCode=1
 author=Miseryset
-description=
+description=binary from https://github.com/MolotovCherry/Android-ImageMagick7
 updateJson=

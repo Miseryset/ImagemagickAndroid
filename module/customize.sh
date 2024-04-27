@@ -3,7 +3,11 @@ SKIPUNZIP=1
 
 _core(){
 
+unzip -o "${ZIPFILE}" 'module.prop' "system/*" -d ${MODPATH} >/dev/null 2>&1
 
+
+sed -i "s/description.*/&  刷入时间：$(date +%F) $(date +%T)/g" ${TMPDIR}/module.prop
+cp -rf ${TMPDIR}/module.prop ${MODPATH}/module.prop
 
 
 

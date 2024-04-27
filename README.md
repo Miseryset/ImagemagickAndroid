@@ -1,2 +1,2 @@
-# Magisk_Mod_Template
-自用模块模板
+# ImagemagickAndroid
+This is a magisk module,which you can use magick with android
